@@ -23,7 +23,7 @@ const postIt = (e) => {
     $.ajax({
 
         type: 'POST',
-        url: 'php/profile.php', // Update with the correct PHP file path
+        url: 'php/profile.php', 
         data: {
             'name': $('#name').val(),
             'age': $('#age').val(),
