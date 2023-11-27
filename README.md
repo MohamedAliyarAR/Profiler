@@ -38,8 +38,8 @@ such that htdocs   folder is a parent folder(C:\xampp\htdocs\)
    - Create a table named `customertable`
    - It should have two columns they are `email` and `password`
   ### mongo
-    - The Database and table structure will be created after the submission.
-    - email is the primary key in this project.
+  - The Database and table structure will be created after the submission.
+  - email is the primary key in this project.
 ## Usage
  - Go to localhost/**your foldername**
  - Ensure the set up is done properly
