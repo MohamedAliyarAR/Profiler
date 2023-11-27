@@ -13,7 +13,7 @@ This project showcases a simple user authentication and profile management syste
 ## Installation
 
 1. I used xampp for the php environment and used the inbuilt sql features.
-2.Clone the project
+2. Clone the project
 
 ```bash
 gh repo clone MohamedAliyarAR/profiler
