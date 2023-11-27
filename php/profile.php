@@ -1,5 +1,5 @@
 <?php
-// Assuming MongoDB PHP extension is installed
+
 require '../vendor/autoload.php';
 
 use MongoDB\Client;
@@ -34,7 +34,7 @@ $customerDetails = $profile->customers;
         ],
     ];
     
-    // echo '<script>console.log("hello")</script>';
+    
     
 
     // Check if the update was successful
