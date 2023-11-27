@@ -27,7 +27,7 @@ such that htdocs   folder is a parent folder(C:\xampp\htdocs\)
 
 ## Set up
 - Start the xampp Apache server and sql.
-- Start the mongoDB by running `mongo` in the terminal.
+- Start the mongoDB by running `mongod` in the terminal.
 - Run the following command to install PHP dependencies `composer install`
 - Run the sql server in the **3307** port
 
