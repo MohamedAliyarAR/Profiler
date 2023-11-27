@@ -13,8 +13,7 @@ class RedisSessionHandler implements SessionHandlerInterface
     }
 
     public function open($savePath, $sessionName) {
-        // No action necessary because connection is injected
-        // in constructor and arguments are not applicable.
+        
     }
 
     public function close() {
