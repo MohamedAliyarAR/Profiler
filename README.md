@@ -4,8 +4,8 @@ This project showcases a simple user authentication and profile management syste
 
 ## Table of Contents
 
-- [Requirement](#installation)
-- [Set up](#setup)
+- [Installation](#installation)
+- [Set up](#set-up)
 - [Data Base](#database)
 - [Usage](#usage)
 
@@ -43,3 +43,4 @@ such that htdocs   folder is a parent folder(C:\xampp\htdocs\)
 ## Usage
  - Go to localhost/**your foldername**
  - Ensure the set up is done properly
+
