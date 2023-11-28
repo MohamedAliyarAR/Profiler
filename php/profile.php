@@ -37,17 +37,17 @@ $customerDetails = $profile->customers;
     
     
 
-    // Check if the update was successful
+    
     $result = $customerDetails->updateOne($filter, $update, ['upsert' => true]);
 
-    // Check if the update was successful
+    
     if ($result->getModifiedCount() > 0 || $result->getUpsertedCount() > 0) {
         $response = ['success' => true, 'message' => 'Profile updated successfully'];
     } else {
         $response = ['success' => false, 'message' => 'Error updating profile'];
     }
 
-    // Return JSON response
+    
     header('Content-Type: application/json');
     echo json_encode($response);
     }
