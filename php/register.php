@@ -40,7 +40,7 @@ $select = "SELECT email FROM customertable WHERE email = ? LIMIT 1";
 $query = "INSERT INTO customertable (email, password) VALUES (?, ?)";
 
 $stmt = $conn->prepare($select);
-$stmt->bind_param("s", $email);  // Corrected variable name
+$stmt->bind_param("s", $email);  
 $stmt->execute();
 $stmt->store_result();
 $rnum = $stmt->num_rows;
