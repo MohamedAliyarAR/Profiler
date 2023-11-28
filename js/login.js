@@ -1,4 +1,9 @@
 
+$("#lp").click(function () {
+    window.location.href = "./login.html";
+});
+
+
 
 $("#rp").click(function () {
     window.location.href = "./register.html";
