@@ -6,7 +6,9 @@ const email = localStorage.getItem('loggedInEmail');
 
 $('#email').val(email);
 
-
+if (!email) {
+    window.location.href = './index.html'
+}
 
 $(document).ready(function () {
     $(document).on('submit', '#profileForm', postIt);
