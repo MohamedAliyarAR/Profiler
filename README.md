@@ -44,5 +44,5 @@ such that htdocs   folder is a parent folder(C:\xampp\htdocs\)
 ## Usage
  - Go to localhost/**your foldername**
  - Ensure the set up is done properly
-##Example
+## Example
 -Here is the hosted [website](https://spotless-interest-production.up.railway.app/index.html)
