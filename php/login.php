@@ -1,14 +1,11 @@
 <?php
 
 
-
-
-// var_dump($_POST);
-$hostname     = "localhost";
+$hostname     = "viaduct.proxy.rlwy.net";
 $username     = "root";
-$dbpassword   = ""; 
-$databasename = "profileAuth";
-$port         = 3307; 
+$dbpassword   = "66ghc5DEc1dFg-5HFa6AbG1h5C1Cdc5e"; 
+$databasename = "railway";
+$port         = 48357; 
 
 
 
