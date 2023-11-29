@@ -1,8 +1,7 @@
 <?php
-require '../vendor/autoload.php';
+require __dir__.'../vendor/autoload.php';
 
 use MongoDB\Client;
-
 
 $mongoHost = "monorail.proxy.rlwy.net";
 $mongoPassword = "ba3dFdf5CcEFdA62aBf6gFe2eeEGEdcC";
