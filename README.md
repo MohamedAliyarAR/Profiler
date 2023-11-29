@@ -8,6 +8,7 @@ This project showcases a simple user authentication and profile management syste
 - [Set up](#set-up)
 - [Data Base](#database)
 - [Usage](#usage)
+- [Example](#example)
 
 
 ## Installation
@@ -43,4 +44,5 @@ such that htdocs   folder is a parent folder(C:\xampp\htdocs\)
 ## Usage
  - Go to localhost/**your foldername**
  - Ensure the set up is done properly
-
+##Example
+-Here is the hosted [website](https://spotless-interest-production.up.railway.app/index.html)
