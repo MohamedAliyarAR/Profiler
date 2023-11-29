@@ -1,19 +1,19 @@
-
-$("#lp").click(function () {
-    window.location.href = "./login.html";
-});
-
-
-
-$("#rp").click(function () {
-    window.location.href = "./register.html";
-});
-
-if (localStorage.getItem('loggedInEmail')) {
-    window.location.href = './profile.html'
-}
-
 $(document).ready(function () {
+    $("#lp").click(function () {
+        window.location.href = "./login.html";
+    });
+
+
+
+    $("#rp").click(function () {
+        window.location.href = "./register.html";
+    });
+
+    if (localStorage.getItem('loggedInEmail')) {
+        window.location.href = './profile.html'
+    }
+
+
 
 
 
@@ -22,7 +22,7 @@ $(document).ready(function () {
 
         $.ajax({
             method: "POST",
-            url: "php/login.php",
+            url: "./php/login.php",
             data: $(this).serialize(),
             dataType: 'json',
             success: (response) => {
@@ -34,6 +34,7 @@ $(document).ready(function () {
                 }
                 else {
                     alert(response.error)
+
                 }
             },
 
