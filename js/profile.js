@@ -1,10 +1,32 @@
 
 $(document).ready(function () {
-
-
     const email = localStorage.getItem('loggedInEmail');
 
     $('#email').val(email);
+
+
+    // $.ajax({
+    //     type: 'POST',
+    //     url: 'php/profile.php',
+    //     data: { 'email': email },
+    //     dataType: 'json',
+    //     success: function (response) {
+    //         if (response.success) {
+    //             // Fill the form with user data
+    //             $('#name').val(response.data.name);
+    //             $('#age').val(response.data.age);
+    //             $('#dob').val(response.data.dob);
+    //             $('#phonenumber').val(response.data.phonenumber);
+    //             $('#email').val(response.data.email);
+    //         } else {
+    //             console.error('Error fetching user profile:', response.message);
+    //         }
+    //     },
+    //     error: function (error) {
+    //         console.error('Error fetching user profile:', error);
+    //     }
+    // });
+
 
 
     $(document).on('submit', '#profileForm',
@@ -20,11 +42,10 @@ $(document).ready(function () {
                 // }
             };
 
-
             $.ajax({
 
                 type: 'POST',
-                url: 'php/profile.php',
+                url: './php/profile.php',
                 data: formData,
                 dataType: 'json',
                 success: function (response) {
@@ -61,9 +82,8 @@ $(document).ready(function () {
 
                 alert(response.message);
             },
-            error: function (error) {
-
-                console.error(error);
+            error: function (xhr, status, error) {
+                console.error('Error updating profile:', error);
             }
         });
     });
