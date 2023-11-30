@@ -1,5 +1,5 @@
 <?php
-require __dir__.'../vendor/autoload.php';
+require '../vendor/autoload.php';
 
 use MongoDB\Client;
 
