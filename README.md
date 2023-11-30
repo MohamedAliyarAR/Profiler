@@ -45,4 +45,4 @@ such that htdocs   folder is a parent folder(C:\xampp\htdocs\)
  - Go to localhost/**your foldername**
  - Ensure the set up is done properly
 ## Example
--Here is the hosted [website](https://spotless-interest-production.up.railway.app/index.html)
+-Here is the hosted [website](https://spotless-interest-production.up.railway.app/index.html) (works perfectly fine in localhost but error in Deployment 😅)
