@@ -10,7 +10,7 @@ $mongoUser = "mongo";
 
 $connectionString = "mongodb://$mongoUser:$mongoPassword@$mongoHost:$mongoPort";
 
-$client = new Client($connectionString);
+$client = new Client('mongodb+srv://admin:1YKavubBpjIELUf3@customer.f0y6f.mongodb.net/');
 
 
 
